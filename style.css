@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+/*margin-left: 30px;*/
+  text-align: center;
+  font-size: 3.0em;
+  color: rgba(33, 131, 93, 0.81);
+}
+
+h3{
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #80ddae;
+}
+
+h4 {
+  color: #fff;
+}
+
+.text>p{
+  color: #fff;
+}
+
+p{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a{
+  color: #80ddae;
+}
+
+a:visited {
+  color: #80ddae;
+}
+
+a:hover {
+  color: #afa1fc;
+}
+
+
+
+/*---------- NAVBAR ----------*/
+
+.navbar{
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #a7fcd1;
+    font-weight:900;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #80ddae;
+    font-weight:900;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #afa1fc;
+    font-weight:900;
+}
+
+/*---------- HEADER ----------*/
+
+.jumbotron {
+    background: url("assets/images/header.png") no-repeat center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+    min-height:100%;
+    padding-top:100px;;
+    background-color: #000;
+}
+
+
+#hdr-container {
+    padding-top: 340px;
+}
+
+#hdr-title {
+    padding: 0;
+    margin: 0;  
+}
+
+#name{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+
+#tagline{
+    color: #fff;
+    font-size: .83em;
+    font-weight: 600;
+}
+
+.job{
+    font-family: 'Lobster', sans-serif;
+    color: #a7fcd1;
+    text-decoration: italic;
+    font-weight: 200;
+}
+
+
+/*---------- ABOUT ME ----------*/
+
+.social-media{
+  padding-top: 10px;
+  
+}
+
+
+/*---------- PORTFOLIO ---------*/
+
+.projects{
+  width: 147;
+  
+}
+
+#project01 {
+  background: url(assets/images/10.jpg);
+}
+
+/*---------- FOOTER ----------*/
+
+
+.footer{
+    background-color: #2f2f2f;  
+    color: #fff;
+//*    display: flex;**/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#footer-content > p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
