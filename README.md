@@ -2,6 +2,7 @@
 This is the second project of freeCodeCamp
 
 ### Developed with:
+- HAML
 - HTML
 - CSS
 - JavaScript
