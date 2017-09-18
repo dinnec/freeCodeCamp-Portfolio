@@ -1,23 +1,27 @@
-%html:5
-  %html(lang="en")
+!!! 5
+%html(lang="en")
   %meta(charset="UTF-8")
-  %title Nadine Caldeira
-  %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")/
-  %link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Lobster|Roboto+Condensed.css")/
+  %title Nadinne Caldeira
+  %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css")
+  %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+  %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+  %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css")
+  %link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Lobster|Roboto+Condensed.css")
+  %link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
   %link(rel="stylesheet" href="style.css")
 
   %header.wrap#home
     %nav.navbar.navbar-default.navbar-fixed-top
       .container
         %ul.nav.navbar-nav.navbar-right
-          %li>
+          %li
             %a(href="#") HOME
-          %li>
-            %a(href="about-me") ABOUT ME
-          %li>
-            %a(href="#") SKILLS
-          %li>
-            %a(href="#") PROJECTS
+          %li
+            %a(href="#about-me") ABOUT ME
+          %li
+            %a(href="#skills") SKILLS
+          %li
+            %a(href="#projects") PROJECTS
 
   .jumbotron
     .container#hdr-container
@@ -31,5 +35,97 @@
           %span.job develop websites
           \.
 
-  .container#about-me
+  .container
     .row
+      .col-md-6#about-me
+        %h2 Nadinne Caldeira
+        %h3 São Paulo, Brazil
+        %p I'm a 21-year-old geek girl who likes comic books, super heroes movies and science fiction.
+        %p I'm also an aspiring UX/UI designer and front-end developer trying to turn my passion for design into a profession.
+        %p Currently working as a mainframe application developer for IBM Brazil, I'm exploring new horizons and learning different web technologies.
+        %p What motivates me is the possibility to change and improve the web through great user experiences, to help users achieve their goals by designing beautiful and understandable interfaces.
+        %p I'm learning HTML5, CSS3, JavaScript and jQuery at freeCodeCamp. I'm looking for freelance UI/UX design and front-end development projects.
+        %p Email me at nadinneoliveira@gmail.com or you can find me on:
+
+        .social-media
+          .row
+            .col-md-2.col-md-offset-2.col-xs-2
+              %a(href="http://www.linkedin.com/in/nadinnecaldeira")
+                %i(class="fa fa-linkedin fa-2x" aria-hidden="true")
+            .col-md-2.col-xs-2
+              %a(href="http://www.twitter.com/gublernating")
+                %i(class="fa fa-twitter fa-2x" aria-hidden="true")
+            .col-md-2.col-xs-2
+              %a(href="http://codepen.io/dinnec/")
+                %i(class="fa fa-codepen fa-2x" aria-hidden="true")
+            .col-md-2.col-xs-2
+              %a(href="http://github.com/dinnec")
+                %i(class="fa fa-github fa-2x" aria-hidden="true")
+      
+      .col-md-6#skills
+        %h2 Tools & Skills
+        %h3 Tools and technologies I use
+        %p I am a beginner in front-end development, I have a basic knowledge of HTML, CSS and JavaScript.
+        %p I'm an experienced user of Adobe Photoshop and Illustrator, and I'm learning my way trough Adobe's new prototype tool, Adobe Experience Design. I have some experience with wireframes, prototyping and Google's Material Design style guide.
+      
+  .container-fluid#projects
+    .container
+      %h2 Projects 
+      %h3 Projects I developed or took part in
+      .row
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4402/36478939403_f09b11c193_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target="_blank" href="https://freecodecamp-tribute-page.mybluemix.net/" rel="noopener") Silicon Valley Tribute Page
+        
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4433/36455787484_47f1fbb95c_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target="_blank" href="https://freecodecamp-portfolio.mybluemix.net" rel="noopener") Portfolio
+                
+
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4346/37102812286_6b7ce2c05f_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target ="_blank" href="#") Project 1
+
+      .row
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4346/37102812286_6b7ce2c05f_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target="_blank" href="#") Project 2
+        
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4346/37102812286_6b7ce2c05f_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target="_blank" href="#") Project 3
+                
+
+        .col-md-4
+          .card
+            .card-image.waves-effect.waves-block.waves-light
+              %img(class="activator" src="https://c1.staticflickr.com/5/4346/37102812286_6b7ce2c05f_o.png")
+            .card-content
+              %span.card-title.activator.grey-text.text-darken-4
+                %a(target ="_blank" href="#") Project 4
+  .footer
+    #footer-content
+      %p This is a freeCodeCamp project. It will be used to showcase websites developed while learning web development
+      %p Developed by Nadinne Caldeira | a freeCodeCamp Project
+
+    %script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js")
