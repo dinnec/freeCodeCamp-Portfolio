@@ -1,5 +1,5 @@
 # Portfolio
-This is the second project of freeCodeCamp
+This is the second project of freeCodeCamp, you can see the result [here](https://freecodecamp-portfolio.mybluemix.net) 
 
 ### Developed with:
 - HAML
